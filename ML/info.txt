@@ -1,0 +1,1 @@
+- MTCNN is a strong face detector offering high detection scores. It stands for Multi-task Cascaded Convolutional Networks.

@@ -1,0 +1,134 @@
+Welcome to Java!
+
+- The Java API Documentation with all of the available APIs http://docs.oracle.com/javase/7/docs/api/
+- Java is a high level, modern programming language designed in the early 1990s by Sun Microsystems, and currently owned by Oracle.
+- Java is Platform Independent, which means that you only need to write the program once to be able to run it on a number of different platforms!
+- Java is portable, robust, and dynamic, with the ability to fit the needs of virtually any type of application.
+- More than 3 billion devices run Java.
+- Java is used to develop apps for Google's Android OS, various Desktop Applications, such as media players, antivirus programs, Web Applications, Enterprise Applications (i.e. banking), and many more!
+- Every program in Java must have a class.
+- Every Java program starts from the main method.
+- public: anyone can access it
+- static: method can be run without creating an instance of the class containing the main method
+- void: method doesn't return any value
+- main: the name of the method
+- System.out.println("Hello World!");
+- /**/ or // comments
+- Documentation comments are special comments that have the appearance of multi-line comments, with the difference being that they generate external documentation of your source code. 
+- Javadoc is a tool which comes with JDK and it is used for generating Java code documentation in HTML format from Java source code which has required documentation in a predefined format.
+- When a documentation comment begins with more than two asterisks, Javadoc assumes that you want to create a "box" around the comment in the source code. It simply ignores the extra asterisks
+- Variables have types. Some examples:
+    - int: for integers (whole numbers) such as 123 and -456
+    - double: for floating-point or real numbers with optional decimal points and fractional parts in fixed or scientific notations, such as 3.1416, -55.66.
+    - String: for texts such as "Hello" or "Good Morning!". Text strings are enclosed within double quotes.
+    - Value types are the basic types, and include byte, short, int, long, float, double, boolean, and char.
+    = when you pass the variables to a method, you basically operate on the variable's value, rather than on the variable itself.
+- comparison operators :
+    < less than
+    > greater than
+    != not equal to
+    == equal to
+    <= less than or equal to
+    >= greater than or equal to
+    AND logical operator (&&)
+    OR operator (||)
+    Not operator (NOT)
+-switch (expression) {
+   case value1 :
+     //Statements
+     break; //optional
+   case value2,value3,value4 :
+     //Statements
+     break; //optional
+    //You can have any number of case statements.
+    default : //Optional
+       //Statements
+    }
+- if-else
+- for (initialization; condition; increment/decrement) {
+    statement(s)
+    }
+- while (condition) {
+    statement(s)
+    }
+- do{
+    statement(s)
+}while(condition)
+- Java uses Object-Oriented Programming (OOP), a programming style that is intended to make thinking about programming closer to thinking about the real world.
+- For classes, the available modifiers are public or default (left blank), as described below:
+    - public: The class is accessible by any other class.
+    - default: The class is accessible only by classes in the same package.
+- The following choices are available for attributes and methods:
+    - default: A variable or method declared with no access control modifier is available to any other class in the same package.
+    - public: Accessible from any other class.
+    - protected: Provides the same access as the default access modifier, with the addition that subclasses can access protected methods and variables of the superclass (Subclasses and superclasses are covered in upcoming lessons).
+    - private: Accessible only within the declared class itself.
+- A constructor name must be same as its class name and he must have no explicit return type.
+- The constructor is called when you create an object using the new keyword.
+- A single class can have multiple constructors with different numbers of parameters.
+- The setter methods inside the constructors can be used to set the attribute values.
+- Math.abs() returns the absolute value of its parameter.
+- Math.ceil() rounds a floating point value up to the nearest integer value. The rounded value is returned as a double
+- Similarly, Math.floor() rounds a floating point value down to the nearest integer value.
+- Math.max() returns the largest of its parameters.
+- Conversely, Math.min() returns the smallest parameter.
+- Math.pow() takes two parameters and returns the first parameter raised to the power of the second parameter.*
+- Use the final keyword to mark a variable constant, so that it can be assigned only once.
+- Packages are used to avoid name conflicts and to control access to classes.
+- A package can be defined as a group made up of similar types of classes, along with sub-packages.
+    - syntax package samples;
+- The following example shows how to use the Vehicle class of the samples package.
+    - syntax import samples.Vehicle;
+- There are 4 core concepts in OOP: encapsulation(private), inheritance(extends), polymorphism, and abstraction(abstract classes and interfaces.).
+- As we saw in the previous lesson, a subclass can define a behavior that's specific to the subclass type, meaning that a subclass can implement a parent class method based on its requirement. This feature is known as method overriding.
+- Rules for Method Overriding:
+    - Should have the same return type and arguments
+    - The access level cannot be more restrictive than the overridden method's access level (Example: If the superclass method is declared public, the overriding method in the sub class can be neither private nor protected)
+    - A method declared final or static cannot be overridden
+    - If a method cannot be inherited, it cannot be overridden
+    - Constructors cannot be overridden
+- An interface is a completely abstract class that contains only abstract methods.
+    - Some specifications:
+        - Defined using the interface keyword.
+        - May contain only static final variables.
+        - Cannot contain a constructor because interfaces cannot be instantiated.
+        - Interfaces can extend other interfaces.
+        - A class can implement any number of interfaces
+    -properties:
+        - An interface is implicitly abstract. You do not need to use the abstract keyword while declaring an interface.
+        - Each method in an interface is also implicitly abstract, so the abstract keyword is not needed.
+        - Methods in an interface are implicitly public.
+- the implements keyword is used to use an interface with your class.
+- For classes, there are two types of casting.
+    - Upcastingc You can cast an instance of a subclass to its superclass.(automatically)
+    - Downcasting Casting an object of a superclass to its subclass is called downcasting.
+- The @Override annotation is used to make your code easier to understand, because it makes it more obvious when methods are overridden.
+- An Enum is a special type used to define collections of constants.
+- An exception is a problem that occurs during program execution. Exceptions cause abnormal termination of the program.
+- Exception handling is a powerful mechanism that handles runtime errors to maintain normal application flow.
+- An exception can occur for many different reasons. Some examples:
+    - A user has entered invalid data.
+    - A file that needs to be opened cannot be found.
+    - A network connection has been lost in the middle of communications.
+    - Insufficient memory and other issues related to physical resources.
+-try {
+    //some code
+    } catch (Exception e) {
+    //some code to handle errors
+    }
+- The throw keyword allows you to manually generate exceptions from your method
+- One such class is the ArrayList. Standard Java arrays are of a fixed length.
+- contains(): Returns true if the list contains the specified element
+- get(int index): Returns the element at the specified position in the list
+- size(): Returns the number of elements in the list
+- clear(): Removes all of the elements from the list
+- add() method adds new objects to the ArrayList.
+- remove() method removes objects from the ArrayList.
+- HashMap is used for storing data collections as key and value pairs. One object is used as a key (index) to another object (the value).
+- The put, remove, and get methods are used to add, delete, and access values in the HashMap.
+- Iterator<Map.Entry<String,Integer>> it =players.entrySet().iterator();
+        
+
+(lambda, expressions, Optional, method references)
+
+

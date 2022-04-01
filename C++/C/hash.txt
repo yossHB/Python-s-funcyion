@@ -1,0 +1,27 @@
+
+unordered_map 
+    is an associated container that stores a combination of key-value and a mapped value.
+    Both key and value can be of any type predefined or user-defined.
+    the cost of search, insert and delete from the hash table is O(1).
+
+
+
+// functionality of unordered_map
+code :
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+int main()
+{
+    // Declaring umap
+    unordered_map<string, int> umap;
+
+    // inserting values by using [] operator
+    umap["GeeksforGeeks"] = 10;
+    umap["Practice"] = 20;
+    umap["Contribute"] = 30;
+
+    // Traversing an unordered map
+    for (auto x : umap)
+      cout << x.first << " " << x.second << endl;
+}

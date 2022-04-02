@@ -1,0 +1,10 @@
+Different types of testing
+    Unit tests
+        tests only test a single part of your implementation.
+
+    integration tests
+        testing the interface between two software units or module.
+
+    functional tests
+        Functional tests look at the app from the user's point of view and test that the system works as expected.
+

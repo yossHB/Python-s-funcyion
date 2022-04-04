@@ -1,0 +1,12 @@
+OLTP  Online transaction processing System
+    an online database modifying system
+    real-time execution
+    optimized for conducting complex data analysis for smarter decision-making.
+    used by data scientists, business analysts and knowledge workers, and they support business intelligence (BI), data mining and other decision support applications.
+
+OLAP  Online Analytical Processing System
+    an online database query answering system.
+    a system for performing multi-dimensional analysis at high speeds on large volumes of data.
+    used by frontline workers or for customer self-service applications
+    optimized for processing a massive number of transactions.
+

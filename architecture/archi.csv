@@ -1,0 +1,37 @@
+Sub-domain area,Architecture pattern,Software design patterns,Solution patterns,Related patterns
+Data integration/SOA,ETL (data extraction transformation and loading),Change data capture,Error handling,EAI
+,,Near real-time ETL,Job scheduling,Master data hub
+,,Batch ETL,Data validation,Operational data store (ODS)
+,,Data discovery,Slowly changing dimensions load,Data mart
+,,,,Data warehouse
+,MFT(Managed file transfer),,,
+,EAI(Enterprise application integration)  /   ESB(enterprise service bus),Publish/subscribe,One-way,SOA
+,,Request/reply,Synchronous request/response,
+,,Message exchange patterns,Basic callback,
+,,,Claim check,
+ata architecture,Transaction data stores (TDS/OLTP),Custom applications databases,,ETL
+,Master data store,Packaged application databases,,EAI
+,Operational data store,,,SOA
+,Data mart,,,
+,Data warehouse,,,
+Analytics and business intelligence,Transactional reporting,Transactional reporting data access,Real-time dashboards,ETL
+,Operational analytics,Operational reporting data access,In-memory analytics,EAI
+,Business analytics,Analytical reporting data access,Statistical analysis,TDS
+,Predictive analytics,Analytical dashboard data access,Predictive analytics,Operational data store
+,Prescriptive analytics,Operational dashboard data access,,Data m
+,Streaming analytics,Data mining,,
+,Data science and advanced analytics,,,
+,NLP,,,
+Master data management,Master data hub,Master data replication,,Change data capture
+,,Master data services,,EAI
+,,Master data synchronization,,STD
+Data modeling,Dimensional data modeling,Modeling standards,,
+,E-R data modeling,Naming conventions,,
+Artificial intelligence,Decision management,,,
+,Speech recognition,,,
+,Text analytics and NLP,,,
+,Natural language generation,,,
+,Classic machine learning,,,
+,Deep learning,,,
+,Robotic process automation,,,
+,Image and video analysis,,,

@@ -1,0 +1,11 @@
+SQL is the standard language to query a database.
+    a single query that is used to perform DML and DDL operations.
+
+PL SQL basically stands for “Procedural Language extensions to SQL.” This is the extension of Structured Query Language (SQL) that is used in Oracle.
+    a block of codes that used to write the entire program blocks/ procedure/ function, etc.
+
+T-SQL basically stands for ” Transact-SQL.” This is the extension of Structured Query Language (SQL) that is used in Microsoft.
+    It can help perform operations like retrieving the data from a single row, inserting new rows, and retrieving multiple rows.
+
+
+

@@ -45,6 +45,7 @@ Benefits
     - SAAS
         for customers
         focus on using the products
+        handle APIs
     - PAAS
         for developers
         focus on the deployment and management od the apps
@@ -85,4 +86,9 @@ Benefits
 - cloud interconnect
     - dedicated
     - partner
+
+
+
+
+
 

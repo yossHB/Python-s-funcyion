@@ -10,3 +10,15 @@ OLAP  Online Analytical Processing System
     used by frontline workers or for customer self-service applications
     optimized for processing a massive number of transactions.
 
+- source data -(ETL/ELT)-> RDB -(SQL)-> BI
+- data werehouse
+    a data management system designed to enable and support BI
+
+- A data landscape
+    is the representation of an organization's data assets, storage options, systems for creating, analysing, processing and storing data, and other applications present in an enterprise's data environment.
+
+- dataops
+
+- devops
+
+

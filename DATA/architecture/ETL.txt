@@ -21,4 +21,7 @@ OLAP  Online Analytical Processing System
 
 - devops
 
+-MPP Massively Parallel Processing
+
+-SMP
 

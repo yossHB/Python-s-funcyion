@@ -1,0 +1,23 @@
+- Yield is a keyword in Python that is used to return from a function without destroying the states of its local variable and when the function is called, the execution starts from the last yield statement.
+- Generators are used to create iterators, but with a different approach. Generators are simple functions which return an iterable set of items, one at a time, in a special way.
+- List Comprehensions is a very powerful tool, which creates a new list based on another list, in a single, readable line.
+- function_name = lambda inputs : output
+- pickle to serialize (deserialize) an object structure into (from) a byte stream.
+    - "dumps" method takes an object and returns a String
+    -  "loads" method takes a string and turns it back into the json object datastructure
+- from functools import partial
+- (@)Decorators allow you to make simple modifications to callable objects like functions, methods, or classes. 
+- Code introspection is the ability to examine classes, functions and keywords to know what they are, what they do and what they know.
+    - help()
+    - dir() 
+    - hasattr() 
+    - id() 
+    - type() 
+    - repr() 
+    - callable() 
+    - issubclass() 
+    - isinstance() 
+    - __doc__ 
+    - __name__
+
+

@@ -1,0 +1,42 @@
+- dataset types:
+    - tables
+        - matrix
+    - netwoeks
+        - graphs
+        - trees
+    - spatial
+        - fields
+        - geometry
+- attribute types
+    - categorical
+    - ordered
+        - ordinal
+        - quantitative
+- processing
+    - clean data
+    - aggregate data
+    - join data
+- data pipeline
+    extracts all data through connections with several databases, transforms it using a cluster computing framework (hadoop/spark) and load it into an analytical database.
+- tools to scheduled
+    oozie / airflow
+- Data processing is often very complicated because you have to manually distribute workload over several computers.
+- PARTITION BY clause divides the rows of the table into different groups.
+- types of analytic functions
+    - Analytic aggregate functions
+        - MIN() / MAX() / AVG() / SUM() / COUNT()
+    - Analytic navigation functions
+        - FIRST_VALUE() / LAST_VALUE()
+    - Analytic numbering functions
+        - ROW_NUMBER() / RANK()
+
+- data journey
+    - Data Acquisition  (collect data)
+    - Data Storage ( SQL / NoSQL / Data lake(cluster of servers) )
+    - Data Processing
+    - Visualization
+    - Training a predictive model
+
+- Digitalization
+- Digital Transformation
+

@@ -22,7 +22,11 @@ Welcome to Java!
     - double: for floating-point or real numbers with optional decimal points and fractional parts in fixed or scientific notations, such as 3.1416, -55.66.
     - String: for texts such as "Hello" or "Good Morning!". Text strings are enclosed within double quotes.
     - Value types are the basic types, and include byte, short, int, long, float, double, boolean, and char.
-    = when you pass the variables to a method, you basically operate on the variable's value, rather than on the variable itself.
+- type casting : an action that forces a value of one data type to be used as a value of another type.
+- unifying type : a single data type to which all operands in an expression are converted.
+- type conversion : the process of converting one data type to another.
+- implicit conversion : the automatic Transformationof one data type to another.
+
 - comparison operators :
     < less than
     > greater than
@@ -52,8 +56,8 @@ Welcome to Java!
     statement(s)
     }
 - do{
-    statement(s)
-}while(condition)
+        statement(s)
+    }while(condition)
 - Java uses Object-Oriented Programming (OOP), a programming style that is intended to make thinking about programming closer to thinking about the real world.
 - For classes, the available modifiers are public or default (left blank), as described below:
     - public: The class is accessible by any other class.
@@ -67,19 +71,24 @@ Welcome to Java!
 - The constructor is called when you create an object using the new keyword.
 - A single class can have multiple constructors with different numbers of parameters.
 - The setter methods inside the constructors can be used to set the attribute values.
-- Math.abs() returns the absolute value of its parameter.
-- Math.ceil() rounds a floating point value up to the nearest integer value. The rounded value is returned as a double
-- Similarly, Math.floor() rounds a floating point value down to the nearest integer value.
-- Math.max() returns the largest of its parameters.
-- Conversely, Math.min() returns the smallest parameter.
-- Math.pow() takes two parameters and returns the first parameter raised to the power of the second parameter.*
-- Use the final keyword to mark a variable constant, so that it can be assigned only once.
+-Math
+    - Math.abs() returns the absolute value of its parameter.
+    - Math.ceil() rounds a floating point value up to the nearest integer value. The rounded value is returned as a double
+    - Math.floor() rounds a floating point value down to the nearest integer value.
+    - Math.max() returns the largest of its parameters.
+    - Math.min() returns the smallest parameter.
+    - Math.pow() takes two parameters and returns the first parameter raised to the power of the second parameter.*
+- the final keyword used to mark a variable constant, so that it can be assigned only once.
 - Packages are used to avoid name conflicts and to control access to classes.
 - A package can be defined as a group made up of similar types of classes, along with sub-packages.
     - syntax package samples;
 - The following example shows how to use the Vehicle class of the samples package.
     - syntax import samples.Vehicle;
-- There are 4 core concepts in OOP: encapsulation(private), inheritance(extends), polymorphism, and abstraction(abstract classes and interfaces.).
+- There are 4 core concepts in OOP:
+    - encapsulation(private)
+    - inheritance(extends)
+    - polymorphism
+    - abstraction(abstract classes and interfaces.)
 - As we saw in the previous lesson, a subclass can define a behavior that's specific to the subclass type, meaning that a subclass can implement a parent class method based on its requirement. This feature is known as method overriding.
 - Rules for Method Overriding:
     - Should have the same return type and arguments
@@ -127,8 +136,14 @@ Welcome to Java!
 - HashMap is used for storing data collections as key and value pairs. One object is used as a key (index) to another object (the value).
 - The put, remove, and get methods are used to add, delete, and access values in the HashMap.
 - Iterator<Map.Entry<String,Integer>> it =players.entrySet().iterator();
-        
 
 (lambda, expressions, Optional, method references)
+
+- threads of execution : units of processing that are scheduled by an operating System and that can be used to create multiple paths of control during program execution.
+- enumerated data type : a programmer create data type with a fixed set of values.
+- tocttou bug : an acronym that describes an error that occurs when changes take place from time of check to time of use.
+- flushing : an operation to clear bytes that have been sent to a buffer for output but that have not yet been output to a hardware device.
+- generic programming : a feature of language that allows methods to be used safely with multiple data types.
+
 
 

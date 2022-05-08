@@ -20,4 +20,21 @@
     - __doc__
     - __name__
 
+- IDLE or IDE
+    -  the interactive development environment
+    - While the Python interpreter is the software that runs Python programs
+
+- What Is Cryptography?
+    Cryptography is the science of using secret codes.
+
+- working with ffiles in python
+    - os interactions
+        - os module
+            - os.getcwd()   # check the present working directory
+            - os.listdir    # To get the list of files in a directory
+    - download urls
+        - urllib module
+    - reading & writing
+        - with open('file.txt','r') as f:
+
 

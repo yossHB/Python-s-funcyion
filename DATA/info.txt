@@ -40,3 +40,96 @@
 - Digitalization
 - Digital Transformation
 
+Object–relational mapping in computer science is a programming technique for converting data between type systems using object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used from within the programming language.
+
+---------------------
+- big data V's
+- unicorns
+- existing data
+- 3 type of data
+    - open data
+    - in-house data
+    -third-party
+- data APIs
+- scrape web data
+- GIGO garbadge in garbadge out  : bad data in bad rsult
+- business metrics
+- KPIs
+- classification accuracy predictions
+    - Logistic regression
+    - KNN
+    - Naive bayes
+    - Decision trees
+    - SVM
+    - Neural nets
+    - poisson regression
+    - ensemble models
+- manipulate data tools
+    - APPs
+        - spreadsheets
+        - tableau
+        - SPSS
+        - JASP
+    - web data
+        - HTML
+        - XML
+        - JSON
+    - code
+        - R
+        - Python
+        - SQL
+        - Bash
+        - C,C++
+        - Java
+- math need
+    - algebra
+        - Linear algebra
+        - elementary algebra
+        - systems of Linear equations
+        - calculus
+        - prob
+        - bayes' theorem
+        - big O
+- relation between coroolation and causalition
+- open data sience
+    - ODSC.com
+    - OSF.io
+    - j.mp/aps-op
+    - dtakind.org
+    - data.gov
+    - data.utah.gov
+    - open-data.europa.eu
+- rest APIs
+    - social APIs
+        -fb /twitter /google talk / foursquare/soundcloud
+    - visual APIs
+        - google maps
+        - youtube
+- A/B testing = always testing
+- Cleaning :
+    - Count missing data  : data.isnull().sum() # missing data points per column
+    - Drop missing values : data.dropna()
+    - Filling in missing values automatically : data.loc[:]
+    - replace all NA's the value that comes directly after it in the same column,   subset_nfl_data.fillna(method='bfill', axis=0)
+    - replace all the remaining na's with 0 : subset_nfl_data.fillna(method='bfill', axis=0).fillna(0)
+
+- categories :
+    - DDL : Data Definition Language        create/drop/alter/truncate/rename/comment
+    - DQL : Data Query Language             select
+    - DML : Data Manipulation Language      insert/update/delete/lock/call/explain plan
+    - DCL : Data Control Language           grant/ revoke
+    - TCL : Transaction Control Language    commit/rollback/savepoint/set Transaction
+
+- ERD : entity relationship diagram is a common way to view data in a database.
+
+- Databases
+    - Data integrity is ensured - only the data you want entered is entered, and only certain users are able to enter data into the database.
+    - Data can be accessed quickly - SQL allows you to obtain results very quickly from the data stored in a database. Code can be optimized to quickly pull results.
+    - Data is easily shared - multiple individuals can access data stored in a database, and the data is the same for all users allowing for consistent results for anyone with access to your database.
+
+-  MySQL doesn’t have some of the functions for modifying dates as Postgres. 
+- CASE WHEN SUM(total_amt_usd) > 200000 THEN 'top'
+     WHEN  SUM(total_amt_usd) > 100000 THEN 'middle'
+     ELSE 'low' END AS customer_level
+
+

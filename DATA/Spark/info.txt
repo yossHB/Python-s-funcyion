@@ -1,0 +1,42 @@
+- What is spark
+    - it open source
+    - a parallel processing framework
+    - developed predominantly using scala
+
+- What is Scala
+    - a high level programming language
+    - supports functional style of programming
+    - supports OO style of programming
+    - it's actually a multi-paradigm language
+
+- function programming
+    - function style of programming inherently supports parallelism
+    - function style of programming is not restricted to a particular programming language
+    - it can be implemented in any language, just like the way OO concepts can also be implemented in programming language like C
+    - certain programming language inherently support sunctional style of programming reducing the programmer's burden
+    - scala is one of the functional programming language
+
+- spark architecture
+    - driver is the starting point of a job submission.
+    - cluster manager can be compared to the resource manager in hadoop.
+    - worker nodes are the data nodes in a HADOOP cluster.
+    - the executor can be compared to that of a node manager in HADOOP 2 or task tracker in HADOOP 1.
+    - driver (spark context) <->cluster manager <-> worker(executor)
+                                                <-> worker(executor)
+                                                <-> worker(executor)
+
+- spark deployment modes
+    - standaline (used for learning & developement)
+        - this is very similar to the pseudo distributed mode of Hadoop 
+        - Spark services run on multiple JVM's
+        - This is also known as standalone cluster
+    - local mode (used for learning & development)
+        - there is a single JVM (no need of HDFS)
+    - cluster mode (can work with MESOS or YARN)
+        - used for production environment & it's fully distributed mode
+
+- job execution in SPARK
+
+- Spark deployement modes
+
+

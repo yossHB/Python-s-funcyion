@@ -12,10 +12,11 @@
 - database administrator monitors and adjusts the database as the program runs in produduction
 - The MVC pattern helps you break up the frontend and backend code into separate components. This way, it's much easier to manage and make changes to either side without them interfering with each other. But this is easier said than done, especially when several developers need to update, modify, or debug a full-blown application simultaneously.
 - in programming A buffer is temporary storage of data that is on its way to other media or storage of data that can be modified non-sequentially before it is read sequentially.
-- buffer overflow as well. which means that all the data passed cannot be stored because buffer is not enough. 
+- buffer overflow as well. which means that all the data passed cannot be stored because buffer is not enough.
 - the flags is also something similar to buffer but use as kind of an indicator.
-- A cache also acts as a buffer, but it stores data that is expected to be read several times to reduce the need to access slower storage. 
--
+- A cache also acts as a buffer, but it stores data that is expected to be read several times to reduce the need to access slower storage.
+- A pattern language is an organized and coherent set of patterns, each of which describes a problem and the core of a solution that can be used in many ways within a specific field of expertise.
+
 
 
 

@@ -1,8 +1,6 @@
 - BeautifulSoup is a Python library, used for parsing HTML documents and extracting data from HTML documents
 - sockets are phone calls between computers and how protocols are devoloped
-- \n is for newline.s
-- \r is to move the cursor at the beginning of the line without moving the cursor to the new line.
-- \t is to creat a tab space
+- https://www.javatpoint.com/regex
 - JSON and XML are the two most common ways to send data over the internet
 - JSON represents data as nested "lists" and dictionaries
 - With a services oriented approach to developing web apps, the data is located in a spead cross many computer systems connected via the internet or internal network.

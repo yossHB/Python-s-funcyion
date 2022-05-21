@@ -1,4 +1,4 @@
 - data modeling represents the framework of what the relationships within a database.
 - also  used to define and analyze data requirements.
-
+- The Digital Advertising Alliance
 

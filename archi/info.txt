@@ -1,0 +1,10 @@
+Difference Between Two-Tier And Three-Tier database architecture
+    - two-tier  architecture consists of two layers : Client Tier and Database (Data Tier).
+    - Three-tier architecture consists of three layers : Client Layer, Business Layer and Data Layer.
+
+
+- BPMN  Business Process Model and Notation
+- UML   Unified Modeling Language
+
+
+

@@ -11,6 +11,7 @@ OLAP  Online Analytical Processing System
     optimized for processing a massive number of transactions.
 
 - source data -(ETL/ELT)-> RDB -(SQL)-> BI
+
 - data werehouse
     a data management system designed to enable and support BI
 

@@ -1,0 +1,16 @@
+- Distributed File Systems: Amazon-S3, HDFS, FTP file system, and windows azure storage blobs
+- NoSQL database: HBase database [Big table with column oriented]
+- Distributed Resource Management: YARN framework
+- Data Flow Processing: [framework that expresses data flows]
+- Data Streaming: Flume [Service based framework that transfer’s streaming data into HDFS]
+- Stream Processing: Storm [Real-time computational engine]
+- SQL Query: Hive [Data Warehouse Component]
+- Graph Processing: Giraph [Large scale graph processing framework]
+- Machine Learning: Mahout [Machine Learning Component]
+- Management Interface: Zookeeper [A management tool for Hadoop Cluster]
+- Pluggable to RMDB: SQOOP [Tool to transfer data between Hadoop and RDBMS]
+
+
+
+
+

@@ -1,0 +1,11 @@
+
+Traitement de données Google Analytics					
+Plan de mesure pour la collecte de données					
+Optimisation du compte Analytics					
+Filtres avancés sur les vues					
+Paramètres de configuration					
+Segmentation					
+Analyse des canaux					
+Analyse des audiences					
+Suivi de campagne personnalisé					
+Remarketing dynamique

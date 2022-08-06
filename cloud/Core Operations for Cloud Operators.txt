@@ -1,0 +1,38 @@
+- Introduce launching an instance
+    Launch an instance and describe the OpenStack architecture and use cases.
+
+- Organize people and resources
+    Manage projects, users, roles, and quotas.
+
+- Describe cloud computing
+    Describe the changes in technology and processes for cloud computing.
+
+- Manage Linux networks
+    Administer Linux networks and bridges.
+
+- Prepare to deploy an instance with public access
+    Manage images, flavors, and private networks in preparation for launching an instance.
+
+- Deploy an instance
+    Launch and verify an instance.
+
+- Manage block storage
+    Manage ephemeral and persistent block storage.
+
+- Manage object storage
+    Administer object storage.
+
+- Prepare to deploy an external instance
+    Manage external networks and security in preparation for launching an instance with public access.
+
+- Deploy an instance with public access
+    Launch and verify an instance with public access.
+
+- Customize instances
+    Customize an instance with cloud-init.
+
+- Deploy scalable stacks
+    Deploy a stack and configure autoscaling.
+
+- Install an OpenStack overcloud
+    Install an OpenStack proof of concept using the director UI and provisioning service templates.

@@ -14,6 +14,7 @@
 - the flags is also something similar to buffer but use as kind of an indicator.
 - A cache also acts as a buffer, but it stores data that is expected to be read several times to reduce the need to access slower storage.
 - A pattern language is an organized and coherent set of patterns, each of which describes a problem and the core of a solution that can be used in many ways within a specific field of expertise.
+    - dependency injection
 
 
 

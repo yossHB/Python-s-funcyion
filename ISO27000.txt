@@ -1,0 +1,45 @@
+## ISO 27000
+IT security, cybersecurity and privacy protection are vital for companies and organizations today. The ISO/IEC 27000 family of standards keeps them safe.
+ISO/IEC 27001 is the world's best-known standard for information security management systems (ISMS) and their requirements.
+Additional best practice in data protection and cyber resilience are covered by more than a dozen standards in the ISO/IEC 27000 family.
+
+Here's how ISO/IEC 27001 will benefit your organization:
+- Secure information in all forms, including paper-based, cloud-based and digital data.
+- Increase resilience to cyber-attacks.
+- Provide a centrally managed framework that secures all information in one place.
+- Ensure organization-wide protection, including against technology-based risks and other threats.
+- Respond to evolving security threats.
+- Reduce costs and spending on ineffective defence technology.
+- Protect the integrity, confidentiality and availability of data.
+
+* What is the ISO 27000 series?
+- ISO 27000 is a series of international standards that provide guidelines and best practices for information security management. The ISO 27000 standards are developed and published by the International Organization for Standardization (ISO), a global network of national standards organizations.
+- The ISO 27000 series includes a number of different standards that cover a wide range of information security topics, including risk management, access control, and data protection. These standards are designed to help organizations of all sizes and industries to protect their information assets and ensure the confidentiality, integrity, and availability of their data.
+- ISO 27000 standards are voluntary, meaning that organizations are not required to comply with them. However, many organizations choose to adopt these standards as a way to demonstrate their commitment to information security and to improve their security practices. Complying with ISO 27000 standards can also help organizations to meet regulatory requirements and to avoid the financial and reputational risks associated with security breaches.
+
+* Published ISO 27000 standards
+The most widely-used ISO 27000 standards:
+- ISO 27001: This standard provides a framework for establishing, implementing, maintaining, and continually improving an information security management system (ISMS). It includes a set of requirements that organizations can use to assess and improve their information security practices.
+- ISO 27002: This standard provides guidance on the selection and implementation of security controls for information systems. It includes a catalog of information security controls and their associated objectives, as well as guidance on how to select and implement the appropriate controls for a given organization.
+- ISO 27003: This standard provides guidance on the establishment, implementation, and maintenance of an ISMS based on ISO 27001. It includes information on how to plan and implement an ISMS, as well as how to monitor, review, and improve its performance.
+- ISO 27004 — Information security management — Monitoring, measurement, analysis and evaluation.
+- ISO 27005: This standard provides guidance on how to perform a risk assessment and manage risks related to information security. It includes a framework for risk assessment and management, as well as guidance on how to identify, evaluate, and treat information security risks.
+- ISO/IEC 27006 — Requirements for bodies providing audit and certification of information security management systems.
+- ISO/IEC 27007 — Guidelines for information security management systems auditing.
+- ISO/IEC TR 27008 — Guidance for auditors on ISMS controls.
+- ISO 27017: This standard provides guidance on how to implement security controls for cloud services based on ISO 27002. It includes additional guidance and controls specifically related to the use of cloud services, such as data security, data privacy, and access control.
+- ISO 27018: This standard provides guidance on how to implement measures to protect personal data in the cloud. It includes additional requirements for organizations that process personal data in the cloud, such as requirements for data protection and privacy impact assessments.
+
+* Why implement an ISO 27000 standard?
+- It enables an organisation to safeguard mission-critical data while also safeguarding employee and customer information.
+- This will help instil greater confidence in your operations among customers and staff, significantly enhancing your image and hopefully mitigating any negative impact on your audience’s perception of your trustworthiness.
+
+* The certification process
+1. The organization conducts a self-assessment to determine its current level of compliance with the ISO 27000 standard.
+2. The organization submits a formal application for certification to the certification body.
+3. The certification body conducts a pre-audit to verify the organization's self-assessment and to identify any potential issues that need to be addressed before the full audit.
+4. The certification body conducts the full audit, which typically lasts several days.
+5. The certification body issues a report detailing the results of the audit, and makes a recommendation on whether the organization should be certified.
+6. If the organization is recommended for certification, the certification body will issue a certificate of compliance.
+7. The organization must maintain its compliance with the ISO 27000 standard to retain its certification. This typically involves regular re-assessments and audits to ensure that the organization's ISMS remains effective.
+

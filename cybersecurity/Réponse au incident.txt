@@ -1,0 +1,76 @@
+Traitement des incidents
+• Première étape: Réception des signalements d’incident (préparation)
+    •Assurez-vous que des communications appropriées sont établies pour signaler des incidents et pour contacter les membres du CSIRT
+    •Moyens sécurisées pour la tenue de réunions d'intervention urgente et le stockage des preuves
+    •Configurez le matériel et les logiciels d'analyse des incidents pour éviter les incidents
+
+• Deuxième étape: Évaluation de l’incident (Détection et Analyse)
+    • Identification
+    • Pertinence
+    • Classification
+    • Triage
+• Troisième étape: Actions (Contenir, Eradiquer, Récupérer, Activités Post-Incident)
+    • Numérotation de l’incident (ticket)
+    • Cycle de vie de l’incident
+        •Détecter les incidents possibles
+            • Surveillez les signes potentiels d'incidents en utilisant des capacités de détection automatisées telles que les IDS / IPS, le logiciel de corrélation de journal de sécurité ou le logiciel antivirus
+            • Suivre les rapports de problèmes générés par l'utilisateur
+        •Notifier les parties appropriées
+            • Contactez les ressources appropriées qui joueront un rôle dans l'escalade, l'analyse et la correction de l'incident 
+            • S’assurer que les membres du personnel sont informés des points de contact pour la gestion des incidents
+            • Escalader l'incident aux parties prenantes appropriées
+            • Déterminer la nécessité de notifier des entités externes
+        •Vérifier et analyser l'incident pour déterminer les prochaines étapes
+        • Déterminer si un incident réel s'est produit 
+            • Prioriser l'incident en fonction de sa criticité, de sa gravité et de son impact 
+            • Déterminer les ressources nécessaires à la résolution des incidents
+            • Aviser les parties concernées (par exemple, les clients, les employés, les affiliés) de l'incident et communiquer la stratégie de résolution
+        •Effectuer des activités pour contenir, d'éradiquer et récupérer pour résoudre l'incident
+
+    • Rapport concernant le traitement de l’incident
+    • Archivage
+    • Post-Incident
+        •Effectuer l'analyse des causes
+        •Rassembler et préserver les preuves dans toutes les traitements
+        •Effectuer une réunion «leçon apprises» avec toutes les parties concernées pour prévenir ou réduire la survenance d'incidents similaires
+
+- A CSIRT (Computer Security Incident Response Team)
+• It is a dedicated team within an organization that is responsible for responding to and managing information security incidents. 
+• CSIRTs typically have the skills and expertise to investigate, contain, and resolve security incidents, and may also be responsible for coordinating with other teams or organizations to ensure an effective response.
+• CSIRTs are an essential part of any organization's information security program, and can play a critical role in protecting the organization's information assets and maintaining its overall security posture.
+• CSIRTs are responsible for:
+    - Identifying and monitoring potential security incidents
+    - Coordinating the response to security incidents, including containment, analysis, and resolution
+    - Communicating with relevant parties, such as other teams within the organization, law enforcement, or affected individuals
+    - Providing guidance and support to other teams within the organization on incident response and management
+    - Conducting post-incident reviews to evaluate the effectiveness of the response and identify opportunities for improvement
+    - Developing and maintaining incident response plans and procedures
+    - Maintaining awareness of the latest threats and trends in information security.
+
+- Martice de responsabilité
+• La matrice décrit le niveau de participation des différentes entités dans les différentes étapes du cycle de vie du traitement d’incidents.
+
+
+
+
+
+- Incident
+• Spam
+• Harassment
+• Pedophilia/Pornography/Violence/..
+• Malware (Virus, Warm, Trojan, Spyware, Dialer, Keylogger)
+• Scan
+• Sniff
+• Social Engineering
+• Vulnerability Exploit
+• Brute Force
+• Defacement
+• DoS
+• DDoS
+• Sabotage
+• Copyright
+• Identity theft
+• Phishing
+
+
+

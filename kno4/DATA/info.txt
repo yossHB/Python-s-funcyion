@@ -1,0 +1,127 @@
+- Data Warehouse is a subject-oriented, integrated, and time-variant store of information in support of management's decisions.
+    - is needed for
+        - Business User
+        - Store historical data
+        - Make strategic decisions
+        - For data consistency and quality
+        - High response time
+- dataset types:
+    - tables
+        - matrix
+    - networks
+        - graphs
+        - trees
+    - spatial
+        - fields
+        - geometry
+- attribute types
+    - categorical
+    - ordered
+        - ordinal
+        - quantitative
+- processing
+    - clean data
+    - aggregate data
+    - join data
+- data pipeline
+    extracts all data through connections with several databases, transforms it using a cluster computing framework (hadoop/spark) and load it into an analytical database.
+- tools to scheduled
+    oozie / airflow
+- Data processing is often very complicated because you have to manually distribute workload over several computers.
+- PARTITION BY clause divides the rows of the table into different groups.
+- types of analytic functions
+    - Analytic aggregate functions
+        - MIN() / MAX() / AVG() / SUM() / COUNT()
+    - Analytic navigation functions
+        - FIRST_VALUE() / LAST_VALUE()
+    - Analytic numbering functions
+        - ROW_NUMBER() / RANK()
+
+- data journey
+    - Data Acquisition  (collect data)
+    - Data Storage ( SQL / NoSQL / Data lake(cluster of servers) )
+    - Data Processing
+    - Visualization
+    - Training a predictive model
+
+- Digitalization
+- Digital Transformation
+
+Object–relational mapping in computer science is a programming technique for converting data between type systems using object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used from within the programming language.
+
+- big data V's
+- unicorns
+- existing data
+- 3 type of data
+    - open data
+    - in-house data
+    - third-party
+- data APIs
+- scrape web data
+- GIGO garbadge in garbadge out  : bad data in bad rsult
+- business metrics
+- KPIs
+
+- manipulate data tools
+    - APPs
+        - spreadsheets
+        - tableau
+        - SPSS
+        - JASP
+    - web data
+        - HTML
+        - XML
+        - JSON
+    - code
+        - R
+        - Python
+        - SQL
+        - Bash
+        - C,C++
+        - Java
+- math need
+    - algebra
+        - Linear algebra
+        - elementary algebra
+        - systems of Linear equations
+        - calculus
+        - prob
+        - bayes' theorem
+        - big O
+- relation between coroolation and causalition
+- open data sience
+    - ODSC.com
+    - OSF.io
+    - j.mp/aps-op
+    - dtakind.org
+    - data.gov
+    - data.utah.gov
+    - open-data.europa.eu
+- rest APIs
+    - social APIs
+        -fb /twitter /google talk / foursquare/soundcloud
+    - visual APIs
+        - google maps
+        - youtube
+- A/B testing = always testing
+
+- categories :
+    - DDL : Data Definition Language        create/drop/alter/truncate/rename/comment
+    - DQL : Data Query Language             select
+    - DML : Data Manipulation Language      insert/update/delete/lock/call/explain plan
+    - DCL : Data Control Language           grant/ revoke
+    - TCL : Transaction Control Language    commit/rollback/savepoint/set Transaction
+
+- ERD : entity relationship diagram is a common way to view data in a database.
+
+- Databases
+    - Data integrity is ensured - only the data you want entered is entered, and only certain users are able to enter data into the database.
+    - Data can be accessed quickly - SQL allows you to obtain results very quickly from the data stored in a database. Code can be optimized to quickly pull results.
+    - Data is easily shared - multiple individuals can access data stored in a database, and the data is the same for all users allowing for consistent results for anyone with access to your database.
+
+-  MySQL doesn’t have some of the functions for modifying dates as Postgres. 
+- CASE WHEN SUM(total_amt_usd) > 200000 THEN 'top'
+     WHEN  SUM(total_amt_usd) > 100000 THEN 'middle'
+     ELSE 'low' END AS customer_level
+
+

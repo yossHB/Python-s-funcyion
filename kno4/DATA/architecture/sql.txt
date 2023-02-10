@@ -1,0 +1,123 @@
+SQL is the standard language to query a database.
+    a single query that is used to perform DML and DDL operations.
+
+PL-SQL basically stands for “Procedural Language extensions to SQL.” This is the extension of Structured Query Language (SQL) that is used in Oracle.
+    a block of codes that used to write the entire program blocks/ procedure/ function, etc.
+
+T-SQL basically stands for ” Transact-SQL.” This is the extension of Structured Query Language (SQL) that is used in Microsoft.
+    It can help perform operations like retrieving the data from a single row, inserting new rows, and retrieving multiple rows.
+
+- Numeric Types
+    - Exact (bigint/ int/ smallint/ tinyint/ bit/ decimal/ numeric/ money/ smallmoney)
+    - Approximate(float/real)
+    - Date and Time(datetime/ smalldatetime/ date/ datetimeoffset/ time/ datetime)
+    - Character Strings(char/ varchar/ text)
+    - Unicode Character Strings(nchar/ nvarchar/ ntext)
+    - Binary Strings(binary/ varbinary/ image)
+    - sql_variant
+    - timestamp
+    - uniqueidentifier
+    - xml
+    - table
+    - hierarchyid
+    - cursor
+
+
+/*******************/
+sub-query
+    is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved.
+    example:
+        SELECT *  
+        FROM CUSTOMERS
+        WHERE ID IN (SELECT ID FROM CUSTOMERS WHERE SALARY > 4500)
+Inner query 
+    uses the data returned from the subquery to insert into another table. 
+    example:
+        INSERT INTO CUSTOMERS_BKP 
+        SELECT * FROM CUSTOMERS  
+        WHERE ID IN (SELECT ID FROM CUSTOMERS)
+
+Subqueries with UPDATE Statement
+    UPDATE CUSTOMERS 
+    SET SALARY = SALARY * 0.25 
+    WHERE AGE IN (SELECT AGE FROM CUSTOMERS_BKP WHERE AGE >= 27 )
+
+Subqueries with DELETE Statement
+    DELETE FROM CUSTOMERS 
+    WHERE AGE IN (SELECT AGE FROM CUSTOMERS_BKP WHERE AGE >=27 )
+
+MS SQL
+    Stored procedure is used to save time to write code again
+    example:
+        Create procedure <procedure_Name>
+        As
+        Begin
+        <SQL Statement>
+        End
+        Go
+
+Properties of Transactions
+     ACID:
+        - Atomicity − Ensures that all operations within the work unit are completed successfully; otherwise, the transaction is aborted at the point of failure, and previous operations are rolled back to their former state.
+        - Consistency − Ensures that the database properly changes state upon a successfully committed transaction.
+        - Isolation − Enables transactions to operate independently of and transparent to each other.
+        - Durability − Ensures that the result or effect of a committed transaction persists in case of a system failure.
+
+Transaction Control
+    - COMMIT − To save the changes.
+        Begin Tran
+        DELETE FROM CUSTOMERS
+            WHERE AGE = 25
+        COMMIT
+    - ROLLBACK − To roll back the changes.
+        Begin Tran
+        DELETE FROM CUSTOMERS
+            WHERE AGE = 25;
+        ROLLBACK
+    - SAVEPOINT − Creates points in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
+        Begin Tran
+        SAVE Transaction SP1
+        Savepoint created.
+        DELETE FROM CUSTOMERS WHERE ID = 1
+        1 row deleted.
+        SAVE Transaction SP2
+        Savepoint created.
+        DELETE FROM CUSTOMERS WHERE ID = 2
+        1 row deleted.
+        SAVE Transaction SP3
+        Savepoint created.
+        DELETE FROM CUSTOMERS WHERE ID = 3
+        1 row deleted.
+        ROLLBACK Transaction SP2
+        Rollback complete.
+
+    - SET TRANSACTION − Places a name on a transaction.
+        SET TRANSACTION ISOLATION LEVEL <Isolationlevel_name>
+
+    RQ: Transactional control commands are only used with the DML commands INSERT, UPDATE and DELETE only. 
+
+- Indexes are special lookup tables that the database search engine can use to speed up data retrieval.
+    An index helps speed up SELECT queries and WHERE clauses, but it slows down data input, with UPDATE and INSERT statements. Indexes can be created or dropped with no effect on the data.
+
+- CREATE INDEX Command
+    CREATE INDEX index_name
+    ON table_name (column1, column2)
+    - Unique Indexes
+        - for performance + not allow any duplicate values
+    - Composite Indexes
+        - the column(s) that you may use very frequently in a query's WHERE clause as filter conditions.
+    - Implicit Indexes
+        - Implicit indexes are indexes that are automatically created by the database server when an object is created. Indexes are automatically created for primary key constraints and unique constraints.
+
+- DROP INDEX Command
+    - performance may be slowed or improved.
+    DROP INDEX tablename.index_name
+
+
+Nested query
+
+
+COMPUTE
+
+FOR BROWSE
+

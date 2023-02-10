@@ -1,0 +1,65 @@
+
+unordered_map
+    is an associated container that stores a combination of key-value and a mapped value.
+    Both key and value can be of any type predefined or user-defined.
+    the cost of search, insert and delete from the hash table is O(1).
+
+
+
+// functionality of unordered_map
+code :
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+int main()
+{
+    // Declaring umap
+    unordered_map<string, int> umap;
+
+    // inserting values by using [] operator
+    umap["GeeksforGeeks"] = 10;
+    umap["Practice"] = 20;
+    umap["Contribute"] = 30;
+
+    // Traversing an unordered map
+    for (auto x : umap)
+      cout << x.first << " " << x.second << endl;
+    // umap.begin(); umap.end();
+    // itr works as a pointer to pair<string, double>
+    // itr->first stores the key part
+    // itr->second stores the value part
+}
+
+Basic functions
+    begin() – Returns an iterator to the first element in the multimap
+    end() – Returns an iterator to the theoretical element that follows last element in the multimap
+    size() – Returns the number of elements in the multimap
+    max_size() – Returns the maximum number of elements that the multimap can hold
+    empty() – Returns whether the multimap is empty
+    pair<int,int> insert(keyvalue,multimapvalue) – Adds a new element to the multimap
+    erase(iterator position) – Removes the element at the position pointed by the iterator.
+    erase(const g)– Removes the key-value ‘g’ from the map.
+    clear() – Removes all the elements from the map.
+
+Modifiers:
+    assign() – It assigns new value to the vector elements by replacing old ones
+    push_back() – It push the elements into a vector from the back
+    pop_back() – It is used to pop or remove elements from a vector from the back.
+    insert() – It inserts new elements before the element at the specified position
+    erase() – It is used to remove elements from a container from the specified position or range.
+    swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
+    clear() – It is used to remove all the elements of the vector container
+    emplace() – It extends the container by inserting new element at position
+    emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector.
+
+
+unordered_map vs unordered_set :
+    In unordered_set associated with only key,
+
+unordered_map vs map :
+    is an ordered sequence of unique keys whereas in unordered_map key can be stored in any order, so unordered.
+    The time complexity of map operations is O(log n) while for unordered_map, it is O(1) on average.
+
+
+
+

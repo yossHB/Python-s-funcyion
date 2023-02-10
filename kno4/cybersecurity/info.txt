@@ -1,0 +1,149 @@
+◼ Cybersecurity
+    - definitions
+        - Cybersecurity is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks.
+        - Cyberspace : Artifacts based/dependent on computer and communications technology.
+        - Security attack : any action that compromises the security of information owned by an organization or an individual
+        - Security mechanism : a mechanism that implements functions designed to prevent, detect, or respond to a security attack
+        - Security service : a service that enhances the security of data processing systems and information transfers
+        - Alert: A message sent by attack detection tools (e.g., IDS) when they observe an attack
+        - Vulnerability: a weakness that may be exploited to cause loss or harm
+        - Threat: A possible danger that might exploit a vulnerability
+        - Risk: an expectation of loss expressed as the probability that a particular threat will exploit a particular vulnerability
+        - Security Policy: A set of rules and practices that specify how a system or organization provides security services to protect sensitive and critical system resources
+
+    - Attacks sophistication VS Intruder knowledge
+        - The level of knowledge required by intruders is getting steadily lower.
+        - the ability to perpetrate sophisticated attacks against the survivability of systems has increased.
+        causes:
+            - Explosion of computer and Internet availability
+            - Increase in broadband availability in residential areas
+            - Low priority of security for software developers
+            - Difficulty patching vulnerabilities on all systems
+            - GUI based tools that exploit known software vulnerabilities
+            - Availability of malware authoring/editing tools
+            - Introduction of tools that attempt to exploit multiple vulnerabilities
+        - Examples of security attacks
+            - Capture of network traffic
+            - Identity forging as authorized user or end system
+            - Exploitation of software bugs to corrupt data or make a server leak sensitive data
+            - Use of compromised system as attack facility
+            - Malware propagation (e.g., worms, backdoors)
+            - Denial of Service to critical assets (e.g., shutdown EHR (Electronic Heath record) systems in e-health infrastructures)
+            - Insider malice (deliberate insertion of malicious code, data leakage)
+            - Stuxnet attack on Iran's nuclear station
+                - A worm planted within Iranian nuclear facilities using a USB memory stick
+            - WannaCry ransomware attack
+                - is a crypto ransomware worm that attacks Windows PCs. It's a form of malware that can spread from PC to PC across networks and then once on a computer it can encrypt critical files.
+            - Attack Surfaces
+                - The reachable and exploitable vulnerabilities in a system
+                - categories
+                    - Newtwork attack surface
+                        - an enterprise network, wide-area network, or the Internet
+                    - software attack surface
+                        - application, utility, or operating system code
+                    - Human attack surface
+                        - personnel or outsiders
+                - example :
+                    - Open ports
+                    - Services accessible through a firewall
+                    - Code that processes incoming data, email, XML, office documents, etc.
+                    - Interfaces and Web forms
+                    - An employee with access to sensitive information vulnerable to a social engineering attack
+            - Attack Vector
+                - Is a path/method that an attacker use to gain access to a server, host, or network in order to deliver a malicious outcome, or gain access to sensitive data
+
+    - Types of Attackers
+        - Amateurs
+            - Script kiddies with little or no skill
+            - Using existing tools or instructions found online for attacks
+        - Hackers - break into computers or networks to gain access
+            - White hats    with permission
+            - Gray hats     without permission
+            - Black hats    without permission
+        - Organized Hackers - organizations of cyber criminals, hacktivists, terrorists, and state-sponsored hackers.
+            - Coordination
+            - Tracing difficulty
+            - Rapid propagation
+            - Self-propagation
+            - Remote execution
+            - Weakness of the legal frameworks
+            - Uncertainty of generated alerts
+
+
+    - Characteristics of digital attacks
+    - Essential Network and Computer Security Requirements
+        - Confidentiality
+        - Integrity
+        - Availability
+        - Accountability
+        - Authenticity
+
+    - Classifying vulnerabilities
+        - application level
+        - protocol vulnerabilities
+        - Human-related vulnerabilities
+
+    - assets
+        - hardware
+        - software
+        - data
+        - communication liens and network
+
+    - Threat consequences
+        - Unauthorized disclosure: threat to confidentiality
+        - Exposure (release of sensitive data), interception, inference, intrusion
+        - Deception: threat to integrity
+        - Masquerade forging identity), falsification (alter data), repudiation
+        - Disruption: threat to integrity and availability
+        - Incapacitation (destruction of assets), corruption (alter system function by backdoor logic), obstruction (overload a system operation)
+        - Usurpation: threat to integrity
+        - Misappropriation (unauthorized contrôl of system resource), misuse (hacker gaining unauthorized access)
+
+    - Active attacks versus passive attacks
+        - Passive attacks : the cryptanalyst cannot interact with any of the parties involved, attempting to break the system solely based upon observed data.
+            - 
+
+        - Active attacks : is a network exploit in which a hacker attempts to make changes to data on the target or data en route to the target.
+            - 
+
+    - Functional Security Requirements
+        - Access Control / Awareness and Training / Audit and Accountability
+        - Certification, Accreditation, and Security Assessments / Configuration Management / Contingency Planning / Complete mediation
+        - Identification and Authentication / Incident Response / Isolation
+        - Maintenance / Media Protection / Modularity
+        - Physical and Environmental Protection / Personnel Security / Psychological acceptability
+        - Risk Assessment
+        - Systems and Services Acquisition /  System and Communications Protection /System and Information Integrity / Separation of privilege
+        - Economy of mechanism
+        - Fail-safe defaults
+        - Open design
+        - Least privilege / Least common mechanism / Layering
+
+    -sniffing
+        - Passive
+            -  Passive sniffing involves only listening and is usually implemented in networks connected by hubs.
+        - Active
+            - Active sniffing techniques include spoofing attacks, DHCP attacks, and DNS poisoning among others.
+
+    -ARP Poisoning
+        - The Address Resolution Protocol is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address. This mapping is a critical function in the Internet protocol suite
+
+
+
+
+
+
+
+
+
+
+
+
+
+- vocab
+    - malware (malicious software)
+    - Graphical user interface (GUI)
+    - ICS industrial control systems
+    - Programming Logic Controllers (PLC)
+    - packet sniffing means eavesdropping on other people's conversations.
+    - Packet spoofing refers to dynamically presenting phony network traffic impersonating to be someone else.

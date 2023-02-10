@@ -1,0 +1,94 @@
+- dedicated server
+    one physical machine dedicated to single a business, runs a single web-app/site.
+
+- Virtual Private server
+    one physical machine dedicated to single a business, the physical machine is Virtualized into sub-machines, runs a multiple web-app/site.
+
+- Shared server
+    one physical machine, shared by hundred of businesses, relis on most tenants under-utilizing their resources.
+
+-Cloud Hosting
+    multiple physical machines that act as one system. The system is abstracted into multiple cloud services.
+
+- A Cloud Service Provider (CSP) is a company which provides multiple Cloud Server, and those Cloud Services can be chained together to create cloud architectures.
+
+- cloud architectures:
+
+    - Virtual private cloud (VPC)
+
+    - computer engine : run the web app on
+
+    - cloud storage (storage assets)
+
+    - cloud SQL : database
+
+    - cloud CDN (Content delivery network) cache commonly
+
+    - cloud deployment manager : mechanism to deploy the application
+
+    - DialogFlow : having a conversational ai
+
+- G-suite = Google Apps = Google Workspace (SAAS)
+    is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google.
+
+
+Benefits
+    cost-effective pay for what you consume
+    global         anywhere in the world
+    secure         secure by default config access
+    reliable       Data bachup, disaster recovery, data replication and fault tolerance
+    Scalable       increase or decrease resources and services based on demand 
+    elastic        Automate scaling
+    current        underlying hardware and managed software
+
+- types of cloud computing
+    - SAAS
+        for customers
+        focus on using the products
+        handle APIs
+    - PAAS
+        for developers
+        focus on the deployment and management od the apps
+    - IAAS
+        for admins
+        acces to network features, computers and data storage space.
+
+- the Shared Responsibility Model
+    is a sipmle visualization that helps determine what the customer is responsible for and what google is responsible for related to GCP.
+    - Responsibility in the cloud (customer responsible)
+    - Responsibility of the cloud (Google responsible)
+
+- cloud computing deployment models
+    - public cloud      cloud
+    - private cloud     on-premise
+    - hybrid cloud      on-premise and cloud service provider
+    - cross-cloud       multiple cloud providers
+
+- total cost of ownership
+    - CAPEX     software licence fees / physical infrastructure
+    - OPEX      subscription fees /   non-physical coasts
+
+- cloud architecture terminologies
+    - availability          remain available
+    - Scalablility          increase capacity
+    - elasticity            Automatically varie the capacity
+    - fault tolerance       Preventing the chance of failure(second copy)
+    - disaster recovery     ability to recover the loss of data
+
+- data residence
+    the physical or geographic location of where an organization or cloud resources reside.
+
+- Docker daemon is the brain behind the whole operation, like aws itself. it's the name of the software layer that lets the user run multiple containers.
+
+- compliance boundaries
+    a regulatory compliance by a goverment or organization that describes where data and cloud resources are allowed to reside 
+
+- cloud interconnect
+    - dedicated
+    - partner
+
+
+
+
+
+

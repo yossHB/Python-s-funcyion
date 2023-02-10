@@ -1,0 +1,7 @@
+- pandas: The cornerstone of our Data Analysis job with Python
+- matplotlib: The foundational library for visualizations. Other libraries we’ll use will be built on top of matplotlib.
+- numpy: The numeric library that serves as the foundation of all calculations in Python.
+- seaborn: A statistical visualization tool built on top of matplotlib.
+- statsmodels: A library with many advanced statistical functions.
+- scipy: Advanced scientific computing, including functions for optimization, linear algebra, image processing and much more.
+- scikit-learn: The most popular machine learning library for Python (not deep learning)

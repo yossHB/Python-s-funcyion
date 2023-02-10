@@ -1,0 +1,24 @@
+- Basic SQL questions
+    - the differences between joins.
+    - Aggregate Functions
+        - AVG: returns the mean of the values in the column.
+        - SUM: returns the sum of the values in the column.
+        - COUNT: returns the number of values in the column.
+        - MAX: returns the highest or alphabetically last value in a column.
+        - MIN: returns the lowest or alphabetically first value in a column.
+    - the basic functions like CASE WHEN or HAVING.
+
+- Reporting and metrics SQL questions
+    -  writing queries that end up in dashboards and key metrics.
+
+- Analytics SQL questions
+    - Understanding what metrics we need to answer the question. Writing the correct SQL query that will output these metrics.
+
+- ETL SQL questions
+    - “Extract” does the process of reading data from a database. “Transform” converts data into a format that could be appropriate for reporting, analysis, machine learning, etc., and “Load” writes the transformed data into another database, table, or any other data storage service that can be then used for reporting.
+
+- Database design questions
+    - it tests whether you know how to design a database from scratch.
+
+- Logic-based SQL questions
+

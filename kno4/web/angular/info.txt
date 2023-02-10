@@ -1,0 +1,46 @@
+- Angular is a front-end JavaScript framework. 
+- A framework is a set of connected libraries designed around a specific programming language.
+- TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript.
+- MEAN (Mongo, Express, Angular and Node)
+- LAMP (Linux, Apache, MySQL and PHP)
+- Python-Django
+- Ruby on Rails
+- .NET   The .NET Framework is a proprietary software framework developed by Microsoft that runs primarily on Microsoft Windows. It was the predominant implementation of the Common Language Infrastructure until being superseded by the cross-platform .NET project.
+- TS Flights back-end will have these main responsibilities:
+    - Handle requests from the front-end for information
+    - CRUD   Create, Read, Update and Delete plane flights in the system
+    - Send info back to the front-end in JSON format (JavaScript Object Notation)
+- In web applications, this typically comes in the form of an XML/HTTP Request or an XHR.  request / response 
+- HTTP error status codes are:
+    - 404 (not found)
+    - 403 (forbidden)
+    - 401 (not authorized)
+    - 500 (internal server error)
+    - 503 (service unavailable)
+- HTTP Success Codes
+    - 200 (ok)
+    - 201 (created)
+    - 202 (accepted), etc.
+- 400 level status codes generally indicate an issue with the request itself, and 500 level status codes generally indicate an error on the back-end.
+-------
+If the initial request has been accepted by the web application server, and there is a need to retrieve data related to the request, the web application server then queries a database or databases to get the information needed to send back to the user.
+
+The database sends the result of the query back to the web application server, and then the web application server usually formats the data into a format to be sent back to the front-end. JSON (JavaScript Object Notation) is a very common format currently used to send data to clients (the front-end).
+--------
+- HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: Informational responses (100–199), Successful responses (200–299), Redirects (300–399), Client errors (400–499), and Server errors (500–599). 
+- A simplified typical data flow from back to front would be:
+    1. Data retrieved from database query
+    2. Data routed through server
+    3. Data reaches service
+    4. Data reaches component
+    5. Data reaches view
+- Generating an Angular Service: we write methods that export data out of the service
+- Dependency injection is a common design pattern in object oriented programming.
+- The [()] construct in Angular enables two way data binding. Some developers call this the "banana in a box".
+- A component encapsulate the data, html markup and the logic for a view.
+    - An HTML template that declares what renders on the page
+    - A Typescript class that defines behavior
+    - A CSS selector that defines how the component is used in a template
+    - Optionally, CSS styles applied to the template
+- 
+

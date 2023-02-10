@@ -1,0 +1,27 @@
+The Java 8 Stream API
+ the Stream API is used to process collections of objects. 
+A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+
+-What is the difference between collection API and stream API?
+ Collections are used to store and group the data in a particular data structure like List, Set or Map. 
+ But, streams are used to perform complex data processing operations like filtering, matching, mapping etc on stored data such as arrays, collections or I/O resources.
+ 
+- the empty() method in case of the creation of an empty stream ot  to avoid returning null for streams with no element:
+   Stream<String> streamEmpty = Stream.empty();
+- create a stream of any type of Collection (Collection, List, Set):
+   Collection<String> collection = Arrays.asList("a", "b", "c");
+   Stream<String> streamOfCollection = collection.stream();
+- An array can also be the source of a stream:
+   Stream<String> streamOfArray = Stream.of("a", "b", "c");
+- the build() method will create an instance of the Stream<Object>, the desired type should be additionally specified in the right part of the statement:
+   Stream<String> streamBuilder = Stream.<String>builder().add("a").add("b").add("c").build();
+-  The code above creates a sequence of ten strings with the value “element.”, specify the desired size, or the generate() method will work until it reaches the memory limit:
+   Stream<String> streamGenerated = Stream.generate(() -> "element").limit(10);
+- creating an infinite stream is by using the iterate() method:
+   Stream<Integer> streamIterated = Stream.iterate(40, n -> n + 2).limit(20);
+
+
+
+
+
+https://www.baeldung.com/java-8-streams

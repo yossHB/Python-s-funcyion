@@ -1,0 +1,12 @@
+- JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object
+- DOM is how to use JS to modify a website(Document Object Model)
+- 
+
+
+To remember:
+- let name = document.getElementById("ID_nmae")
+- function name() {}
+- name.innerText = .....
+- console.log() 
+- name.textContenttStr
+- name.textContent 

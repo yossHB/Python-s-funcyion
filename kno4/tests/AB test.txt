@@ -1,0 +1,23 @@
+Clarification:
+How many stocks to be given out? -> let's say x
+
+Design of A/B Experiment
+Variable under test: number of new accounts created
+Goal: Increase the number of new accounts created using a campaign giving out x free stocks
+Control group: campaign with no free stocks given to new users
+Treatment group: campaign with x free stocks to new users
+Hypothesis:
+H0: There is no difference in the number of new users acquired in the control and treatment group
+H1: There is a difference in the number of new users acquired in the control and treatment group
+Metrics:
+Primary: Number of new users acquired through each campaign
+Secondary: Daily active users, the average number of trades per user per day
+Statistics of experiment:
+Significance level: 0.05 -> type I error
+Power of test: 0.8
+Effect size: depends on the market size. Assuming the US market, a 1% change would be significant.
+Determine sample size
+Unit of test: Users in the same geographic location
+Number of days to run the experiment: sample size/number of customers reached each day during the campaign
+References
+Useful in learning the design of experiments: https://blog.hubspot.com/marketing/how-to-do-a-b-testing

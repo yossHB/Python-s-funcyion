@@ -1,0 +1,52 @@
+NoSQL
+- SGBD au NoSQL
+    - Le modèle hiérarchique
+    - Codasyl et Cobol
+    -  le modèle relationnel d’Edgar Frank Codd
+    - De OLTP à OLAP
+    - Classement par usage
+        - Assouplissement de la structure
+        - Structures spécifiques
+        - Volumétrie
+    - Classement par schéma de données
+        - Paires clé-valeur
+        - Les moteurs orientés documents
+        - Les moteurs orientés colonnes
+        - Index inversé
+        - Structures particulières
+    - Les ORM pour NoSQL
+- NoSQL VS SQL
+    - les principes
+    - le transactionnel et la cohérence des données
+- les choix techniques du NoSQL
+    - L’interface avec le code client
+    - L’architecture distribuée
+    - Le Big Data analytique
+- Les schémas de données dans les bases NoSQL
+    - Le schéma implicite
+    - Les paires clé-valeur
+    - Les bases orientées documents
+    - Les bases orientées colonnes
+    - Les documents binaires
+    - Le stockage du Big Data analytique
+- Panorama des principales bases de données NoSQL
+    - Préliminaires
+- Hadoop et HBase
+    - Hadoop
+    - HBase
+- Le Big Data Analytique
+    - Sqoop et Hive
+    - Apache Spark
+- CouchDB et Couchbase Server
+    - Présentation de CouchDB
+    - Mise en œuvre de CouchDB
+    - Présentation de Couchbase Server
+- MongoDB
+- Riak
+- Redis
+- cassandra
+- Les autres bases de données de la mouvance NoSQL
+    - ElasticSearch
+    - Les bases de données orientées graphes
+
+

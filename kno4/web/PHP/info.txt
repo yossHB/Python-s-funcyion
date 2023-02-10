@@ -1,0 +1,17 @@
+PHP : Hypertext Preprocessor (Personal Home Page)
+    - is a open-sourse server side scripting language that is embedded inti html and used for web developement
+    - website function faster
+    - everything is implemented on web server
+    - creates dynamic web pages
+    - cost efficient
+    - loads websites faster
+    - compatibility
+    - platform independent
+
+XAMPP : cross platform/ apache server/ mariaDB/ PHP/ Perl
+    -  is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server.
+
+- isset Check whether a variable is empty.
+
+
+

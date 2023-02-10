@@ -1,0 +1,9 @@
+Microsoft SQL Server tools to manage and utilize data.
+
+SSAS  Analysis tool stands for Sql Server Analysis Services which is an online analytical processing (OLAP), data mining and reporting tool used in Business Intelligence to make your data work for you.
+
+SSIS Integration tool stands for Sql Server Integration Services. The key power of SSIS is its data transformation and migration capabilitTLy E.(data warehouse or data mart)
+
+SSRS Reporting tool stands for Sql Server Reporting Services. Once data is in its final state, either in the native transactional system or transformed into a datamart or datawarehouse, SSRS provides the tools necessary to create reports to better understand your data.
+
+

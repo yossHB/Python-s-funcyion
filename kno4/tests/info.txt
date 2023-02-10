@@ -1,0 +1,17 @@
+Different types of testing
+    Unit tests
+        tests only test a single part of your implementation.
+
+    integration tests
+        testing the interface between two software units or module.
+            Big-Bang Integration Testing:
+                put together and tested
+            Bottom-Up Integration Testing:
+                each module at lower levels is tested with higher modules until all modules are tested.
+            Top-Down Integration Testing:
+                to simulate the behaviour of the lower-level modules that are not yet integrated.
+            Mixed Integration Testing:
+
+    functional tests
+        Functional tests look at the app from the user's point of view and test that the system works as expected.
+

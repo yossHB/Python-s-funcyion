@@ -1,0 +1,50 @@
+- Le trajet dans le pipeline de données
+    - La collecte ou l’extraction d’ensembles de données brutes.
+    - La gouvernance des données.
+        - Une fois les données collectées, les entreprises doivent constituer une discipline pour organiser les données à leur échelle.
+        - contrôle ensuite la qualité des données et la sécurité des données
+    - La transformation des données
+        - consiste à nettoyer et convertir les ensembles de données dans les formats de reporting adéquats
+            - La normalisation — Définition des données importantes et de la manière dont elles seront formatées et stockées.
+            - Le dédoublonnage — Signalement des doublons aux gestionnaires de données. Exclusion et/ou suppression des données redondantes.
+            - La vérification — permettent d’éliminer les données inutilisables et de signaler les anomalies des systèmes, des applications ou des données.
+            - Le classement — Optimisation de l’efficacité via un regroupement.
+            - Le partage des données
+- Types d’intégrité des données
+    - Intégrité physique — la protection de l’unité et de l’exactitude des données lors de leur stockage et récupération.
+    - Intégrité logique — conserve les données inchangées pendant leurs différentes utilisations dans une base de données relationnelle.
+    - Intégrité de l’entité — s’appuie sur la création de clés primaires, ou de valeurs uniques identifiant des données, afin de garantir que les données ne sont pas répertoriées plus d’une fois et qu’aucune zone de table n’est nulle.
+    - Intégrité référentielle — désigne la série de processus nécessaires pour garantir un stockage et une utilisation homogènes des données.
+    - Intégrité de domaine — consiste en un ensemble de processus qui garantissent l’exactitude de chaque donnée dans un domaine.
+    - Intégrité définie par l’utilisateur — implique les règles et les contraintes créées par l’utilisateur pour satisfaire ses besoins particuliers. 
+
+- Data Engineering
+    -  to convert this raw data into useful information.
+
+-  Data Modelling
+    -  the method of documenting complex software design as a diagram so that anyone can easily understand.
+
+- Modes in Hadoop
+    - Standalone mode.
+    - Pseudo distributed mode.
+    - Fully distributed mode.
+
+- What is Heartbeat in Hadoop?
+    - Heartbeat is the signal sent by DataNode to NameNode on a regular basis to show its presence.
+
+- How to deploy a big data solution?
+    - Integrate data using data sources like RDBMS, SAP, MySQL, Salesforce
+    - Store data extracted data in either NoSQL database or HDFS.
+    - Deploy big data solution using processing frameworks like Pig, Spark, and MapReduce.
+
+- How to achieve security in Hadoop?
+    - The first step is to secure the authentication channel of the client to the server. Provide time-stamped to the client.
+    - In the second step, the client uses the received time-stamped to request TGS for a service ticket.
+    - In the last step, the client use service ticket for self-authentication to a specific server.
+
+
+
+
+
+
+

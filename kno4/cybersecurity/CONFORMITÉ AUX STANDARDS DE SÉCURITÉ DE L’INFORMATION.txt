@@ -1,0 +1,15 @@
+Conformance to information security standards refers to an organization's adherence to a set of established guidelines or requirements for protecting its information assets. These standards may be established by external bodies, such as government agencies or industry organizations, or they may be developed internally by the organization itself.
+
+Conformance to information security standards is important because it helps to ensure that an organization has the appropriate controls and procedures in place to protect its sensitive information and data. This can help to prevent security breaches and other incidents that could compromise the confidentiality, integrity, and availability of the organization's information assets.
+
+To achieve conformance to information security standards, organizations must first identify the standards that apply to their specific industry or business activities. They can then assess their current information security practices to determine their level of compliance with the standards, and develop and implement a plan to address any gaps or deficiencies.
+
+Maintaining conformance to information security standards typically involves ongoing efforts to monitor and review the organization's information security practices, as well as regular assessments and audits to ensure that the organization's controls and procedures remain effective.
+
+
+CONFORMITÉ AUX STANDARDS DE SÉCURITÉ DE L’INFORMATION => Certification
+                                                         Testing
+                                                         Inspection
+                                                         Mutual Recognition
+                                                         Trade
+

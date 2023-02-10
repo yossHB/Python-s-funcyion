@@ -1,0 +1,22 @@
+- MTCNN is a strong face detector offering high detection scores. It stands for Multi-task Cascaded Convolutional Networks.
+
+- Cleaning :
+    - Count missing data  : data.isnull().sum() # missing data points per column
+    - Drop missing values : data.dropna()
+    - Filling in missing values automatically : data.loc[:]
+    - replace all NA's the value that comes directly after it in the same column,   subset_nfl_data.fillna(method='bfill', axis=0)
+    - replace all the remaining na's with 0 : subset_nfl_data.fillna(method='bfill', axis=0).fillna(0)
+
+- classification accuracy predictions
+    - Logistic regression
+    - KNN
+    - Naive bayes
+    - Decision trees
+    - SVM
+    - Neural nets
+    - poisson regression
+    - ensemble models
+
+- Scaling vs Normalization
+    - in scaling, changing the range of your data.
+    - in normalization, changing the shape of the distribution of your data.

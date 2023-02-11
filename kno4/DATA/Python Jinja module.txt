@@ -1,0 +1,22 @@
+Jinja is a template engine for Python.
+- is a library designed to combine templates with a data model to produce documents.
+- define static parts and dynamic parts (data).
+
+Jinja installation
+- $ sudo pip3 install jinja2
+
+Jinja delimiters
+- {% %} : statements
+- {{ }} : expressions to print to the template output
+- {# #} : comments which are not included in the template output
+- #  ## : line statements
+
+on the template we can work with:
+- dynamic /static var
+- objects
+- d0ictionaries
+
+resources : 
+    - https://zetcode.com/python/jinja/
+    - https://query.me/learn/jinja/what-is-jinja/#:~:text=How%20is%20it%20used%3F,the%20output%20should%20be%20generated.
+    
